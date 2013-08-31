@@ -1,4 +1,6 @@
 Testapp::Application.routes.draw do
+  match "status" => "info#status", via: :get
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
