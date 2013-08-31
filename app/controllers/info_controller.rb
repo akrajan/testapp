@@ -8,6 +8,10 @@ class InfoController < ApplicationController
     end
   end
 
+  def health
+    render text: "hello"
+  end
+
   private
   def get_revision
     version = ""

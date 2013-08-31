@@ -1,5 +1,6 @@
 Testapp::Application.routes.draw do
   match "status" => "info#status", via: :get
+  match "health" => "info#health", via: :get
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
