@@ -5,5 +5,5 @@ server "ec2-54-212-21-224.us-west-2.compute.amazonaws.com", :app, :db, :web, pri
 
 ssh_options[:keys] = ["~/.ssh/seattle_install.pem"]
 ssh_options[:port] = 22
-set :branch, :staging
-set :rails_env, 'staging'
+set :branch, :master
+set :rails_env, 'production'
