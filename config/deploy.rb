@@ -1,8 +1,8 @@
 require 'bundler/capistrano'
 
-set :application, "seattle_install"
+set :application, "testapp"
 set :scm, :git
-set :repository, "https://github.com/serviceslabs/pilot.git"
+set :repository, "git@github.com:akrajan/testapp.git"
 #server "localhost", :web, :app, :db, :primary => true
 #ssh_options[:port] = 2222
 #ssh_options[:keys] = "~/.vagrant.d/insecure_private_key"
